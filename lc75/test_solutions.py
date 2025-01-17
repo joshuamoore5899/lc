@@ -14,4 +14,4 @@ def test_greatest_common_divisor_of_strings():
     assert strings.gcdOfStrings("abcabca", "abc") == ""
     assert strings.gcdOfStrings("abcabc", "abcabc") == "abcabc"
     assert strings.gcdOfStrings("abab", "ababab") == "ab"
-    assert strings.gcdOfStrings("123456", "123456123456123456") == "123456"
+    assert strings.gcdOfStrings("1234567", "123456712345671234567") == "1234567"
